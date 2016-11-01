@@ -51,7 +51,7 @@ module.exports = function(url, flags, configJSON) {
 
     flags = flags || {};
 
-    // set logging preferences, assume quiet/silent
+    // set logging preferences, assume quiet
     flags.logLevel = flags.logLevel || 'error';
     log.setLevel(flags.logLevel);
 
